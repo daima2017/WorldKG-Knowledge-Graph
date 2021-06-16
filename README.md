@@ -37,3 +37,4 @@ Example: python3 CreateTriples.py italy-latest.osm.pbf italyTriples.ttl</li>
 <li>requirements.txt - Contains versions of python libraries used.</li>
 <li>CreateTriples.py - Main python file to create the WorldKG instance triples.</li>
 <li>WorldKG_Ontology.ttl - WorldKG ontology triples in .ttl format.</li>
+<li>Manual Annotations Sample Set - In this folder, we provide the entities and classes used for evaluation of the tag-to-class mapping in WorldKG.</li>
