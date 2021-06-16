@@ -28,7 +28,7 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 <div class="readme-code">python3 CreateTriples.py /path-to-pbf-file /path-to-the-ttl-file-to-save-triples </div></li>
 
 Example: <div class="readme-code">python3 CreateTriples.py italy-latest.osm.pbf italyTriples.ttl</li></div>
-</old>
+</ol>
 
 <h3>File Structure</h3>
 
