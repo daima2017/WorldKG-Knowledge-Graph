@@ -13,11 +13,11 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 <p>Steps to create the WorldKG triples for the particular OSM snapshot.</p>
 <ol>
     <li>Clone the repository
-		<div class="readme-code">git clone https://github.com/alishiba14/WorldKG-Knowledge-Graph.git<br>
-		cd WorldKG-Knowledge-Graph</div>
+		git clone https://github.com/alishiba14/WorldKG-Knowledge-Graph.git<br>
+		cd WorldKG-Knowledge-Graph
 	</li>
     <li>Install the Python Requirements
-		<div class="readme-code">pip install -r requirements.txt</div>
+		pip install -r requirements.txt
 	</li>
 
 
@@ -25,9 +25,9 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 
 <li>Run the CreateTriples.py:
 
-<div class="readme-code">python3 CreateTriples.py /path-to-pbf-file /path-to-the-ttl-file-to-save-triples </div></li>
+python3 CreateTriples.py /path-to-pbf-file /path-to-the-ttl-file-to-save-triples 
 
-Example: <div class="readme-code">python3 CreateTriples.py italy-latest.osm.pbf italyTriples.ttl</li></div>
+Example: python3 CreateTriples.py italy-latest.osm.pbf italyTriples.ttl</li>
 </ol>
 
 <h3>File Structure</h3>
