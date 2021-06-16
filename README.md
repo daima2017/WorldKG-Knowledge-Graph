@@ -5,7 +5,7 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 
 <h3>Prerequisites</h3>
 <ul>
-	<li>Python >= 3.7</li>
+	<li>Python = 3.6</li>
 </ul>
 
 
@@ -29,3 +29,11 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 
 Example: <div class="readme-code">python3 CreateTriples.py italy-latest.osm.pbf italyTriples.ttl</li></div>
 </old>
+
+<h3>File Structure</h3>
+
+<li>Key_List.csv - Contains list of OSM keys with valid OSM wiki page.</li>
+<li>OSM_Ontology_map_features.csv - Contains tags collected from OSM map features (https://wiki.openstreetmap.org/wiki/Map_features).</li>
+<li>requirements.txt - Contains versions of python libraries used.</li>
+<li>CreateTriples.py - Main python file to create the WorldKG instance triples.</li>
+<li>WorldKG_Ontology.ttl - WorldKG ontology triples in .ttl format.</li>
