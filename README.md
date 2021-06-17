@@ -7,7 +7,7 @@ The WorldKG knowledge graph is a comprehensive large-scale geospatial knowledge 
 
 <h3>Prerequisites</h3>
 <ul>
-	<li>Python = 3.6</li>
+	<li>Python >= 3.7</li>
 </ul>
 
 
